@@ -49,6 +49,10 @@
             android:name=".SmishingRulesActivity"
             android:exported="false" />
         <activity
+            android:name=".RateAppActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".ui.Register.RegisterMain"
             android:exported="true" />
         <activity
