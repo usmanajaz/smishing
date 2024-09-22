@@ -47,6 +47,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/HardhatLogo"
             android:textColor="@color/navy_blue"/>
+        <Button
+            android:id="@+id/rateUsBtn"
+            android:layout_width="175dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/buttons_rounded"
+            android:gravity="bottom|start"
+            android:text="Rate Us"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aboutMeBtn"/>
 
         <Button
             android:id="@+id/accountBtn"

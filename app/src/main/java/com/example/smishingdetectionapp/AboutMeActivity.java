@@ -1,4 +1,4 @@
-package com.example.smishingdetectionapp;  // Ensure this matches your package
+package com.example.smishingdetectionapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +18,7 @@ public class AboutMeActivity extends AppCompatActivity {
             // Navigate back to SettingsActivity
             Intent intent = new Intent(AboutMeActivity.this, SettingsActivity.class);
             startActivity(intent);
-            finish();  // Optional: Finish the current activity
+            finish();
         });
     }
 }
